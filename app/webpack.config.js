@@ -39,8 +39,7 @@ module.exports = {
     new CopyWebpackPlugin([{ from: "./src/images/transplant-icon.svg", to: "images/transplant-icon.svg" }]),
     new CopyWebpackPlugin([{ from: "./src/images/waiting-list-icon.svg", to: "images/waiting-list-icon.svg" }]),
     new CopyWebpackPlugin([{ from: "./src/images/mail-icon.svg", to: "images/mail-icon.svg" }]),
-    new CopyWebpackPlugin([{ from: "./src/images/Boini.png", to: "images/Boini.png" }]),
-    ,    
+    new CopyWebpackPlugin([{ from: "./src/images/Boini.png", to: "images/Boini.png" }]) 
   ],
   devServer: { contentBase: path.join(__dirname, "dist"), compress: true },
 };
